@@ -1,0 +1,55 @@
+a{
+    text-decoration: none;
+    background-color: white;
+    color: darkgreen;
+    padding: 10px;
+    border-radius: 3px 3px;
+    transition: .2s;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 1%;
+    font-family: 'Righteous', cursive;
+}
+button{
+    border-radius: 30px;
+    border: solid black 1px;
+    background-color: darkgreen;
+    color:white;
+    font-size: 20px;
+}
+@media only screen and (min-width: 640px) {
+    .top, #work {
+        background-color: lightblue;
+    }
+    .nav, .eagles, .title{
+        display: flex;
+    }
+    .logo {
+        display: inline-block;
+        width: 20%;
+        border-radius: 30px;
+        vertical-align: middle;
+    }
+}
+.eaglesLogo{
+    width:200px;
+    height:66px;
+}
+.top, #work {
+    background-color: lightblue;
+}
+.logo {
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+}
+#about, #contactMe{
+    background-color: darkgreen;
+    color:white;
+}
